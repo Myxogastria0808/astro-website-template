@@ -1,5 +1,5 @@
 {
-  description = "natsuiro-website";
+  description = "astro website template";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
