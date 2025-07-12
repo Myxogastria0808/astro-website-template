@@ -21,8 +21,8 @@ Visual Studio Codeを使用している場合は、以下の拡張機能をイ�
 1. レポジトリをcloneして、レポジトリのディレクトリに移動
 
 ```sh
-git clone https://github.com/tsukuba-GSK-bishoge/natsuiro-website.git
-cd natsuiro-website
+git clone https://github.com/Myxogastria0808/astro-website-template.git
+cd astro-website-template
 ```
 
 2. 以下のコマンドをレポジトリのルートで実行

@@ -13,7 +13,5 @@
     "astro", // Enable .astro
     "typescript", // Enable .ts
     "typescriptreact" // Enable .tsx
-  ],
-  // Code Spell Checkerの設定
-  "cSpell.words": ["natsuiro"]
+  ]
 }
