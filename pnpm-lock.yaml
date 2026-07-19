@@ -13,10 +13,10 @@ importers:
         version: 5.18.2(@types/node@24.10.1)(rollup@4.61.1)(typescript@5.9.2)(yaml@2.9.0)
     devDependencies:
       '@eslint/js':
-        specifier: ^9.39.5
+        specifier: ^9.35.0
         version: 9.39.5
       eslint:
-        specifier: ^9.39.5
+        specifier: ^9.29.0
         version: 9.39.5
       eslint-config-flat-gitignore:
         specifier: ^2.1.0
@@ -40,8 +40,8 @@ importers:
         specifier: ^17.0.0
         version: 17.0.8
       prettier:
-        specifier: 3.8.4
-        version: 3.8.4
+        specifier: 3.9.5
+        version: 3.9.5
       prettier-plugin-astro:
         specifier: 0.14.1
         version: 0.14.1
@@ -2184,8 +2184,8 @@ packages:
     resolution: {integrity: sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==}
     engines: {node: ^14.15.0 || >=16.0.0}
 
-  prettier@3.8.4:
-    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
+  prettier@3.9.5:
+    resolution: {integrity: sha512-/FVl766LpUfB5vXgCYOYa0MeV/441Ia99AeICQIQFTY/Nw0roZwULcXpku5i1/m5kt/baz+s4Zogspd839HSMg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5191,10 +5191,10 @@ snapshots:
   prettier-plugin-astro@0.14.1:
     dependencies:
       '@astrojs/compiler': 2.12.2
-      prettier: 3.8.4
+      prettier: 3.9.5
       sass-formatter: 0.7.9
 
-  prettier@3.8.4: {}
+  prettier@3.9.5: {}
 
   prismjs@1.30.0: {}
 
