@@ -19,8 +19,8 @@ importers:
         specifier: ^9.29.0
         version: 9.39.5
       eslint-config-flat-gitignore:
-        specifier: ^2.1.0
-        version: 2.3.0(eslint@9.39.5)
+        specifier: ^2.4.0
+        version: 2.4.0(eslint@9.39.5)
       eslint-config-prettier:
         specifier: ^10.1.5
         version: 10.1.8(eslint@9.39.5)
@@ -31,7 +31,7 @@ importers:
         specifier: ^6.10.2
         version: 6.10.2(eslint@9.39.5)
       globals:
-        specifier: ^17.8.0
+        specifier: ^17.0.0
         version: 17.8.0
       husky:
         specifier: ^9.0.0
@@ -420,8 +420,8 @@ packages:
     resolution: {integrity: sha512-EriSTlt5OC9/7SXkRSCAhfSxxoSUgBm33OH+IkwbdpgoqsSsUg7y3uh+IICI/Qg4BBWr3U2i39RpmycbxMq4ew==}
     engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
 
-  '@eslint/compat@2.0.5':
-    resolution: {integrity: sha512-IbHDbHJfkVNv6xjlET8AIVo/K1NQt7YT4Rp6ok/clyBGcpRx1l6gv0Rq3vBvYfPJIZt6ODf66Zq08FJNDpnzgg==}
+  '@eslint/compat@2.1.1':
+    resolution: {integrity: sha512-rMcy8GSrwNzcISX/BlTDY/GLB4eCopEuy9woIls3To+15OLxykZrxxq+WUcylCPCQ6F4MujjBM1DX5V1aqI3Vw==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     peerDependencies:
       eslint: ^8.40 || 9 || 10
@@ -1345,8 +1345,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  eslint-config-flat-gitignore@2.3.0:
-    resolution: {integrity: sha512-bg4ZLGgoARg1naWfsINUUb/52Ksw/K22K+T16D38Y8v+/sGwwIYrGvH/JBjOin+RQtxxC9tzNNiy4shnGtGyyQ==}
+  eslint-config-flat-gitignore@2.4.0:
+    resolution: {integrity: sha512-JhYC+V7qEDiCDsbJcVP8fxNc62fk4+i91YLP/YvmVHlkaQ8Xo99olYN8MO5COdxl7onGlsrfZVONe5NYsZP1UA==}
     peerDependencies:
       eslint: ^9.5.0 || ^10.0.0
 
@@ -1387,6 +1387,7 @@ packages:
   eslint@9.39.5:
     resolution: {integrity: sha512-DgZS62aPLXKlnxILS/AYCoRvHaZeXceIzlXPkkGGzJWSow1aEk0lbTlxUSlyjC8jcaKxAdOnTDz+o1JFSBsyjw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -2980,7 +2981,7 @@ snapshots:
 
   '@eslint-community/regexpp@4.12.2': {}
 
-  '@eslint/compat@2.0.5(eslint@9.39.5)':
+  '@eslint/compat@2.1.1(eslint@9.39.5)':
     dependencies:
       '@eslint/core': 1.2.1
     optionalDependencies:
@@ -4016,9 +4017,9 @@ snapshots:
       eslint: 9.39.5
       semver: 7.8.3
 
-  eslint-config-flat-gitignore@2.3.0(eslint@9.39.5):
+  eslint-config-flat-gitignore@2.4.0(eslint@9.39.5):
     dependencies:
-      '@eslint/compat': 2.0.5(eslint@9.39.5)
+      '@eslint/compat': 2.1.1(eslint@9.39.5)
       eslint: 9.39.5
 
   eslint-config-prettier@10.1.8(eslint@9.39.5):
